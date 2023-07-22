@@ -75,3 +75,31 @@ body {
     border: 2px solid yellowgreen;
 
 }
+
+.instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.linkedin::before {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 0;
+}
+
+.facebook {
+    color: #39569c;
+}
+
+.facebook::before {
+    background-color: #ffffff;
+    border-radius: 40px;
+    border: 0;
+}
