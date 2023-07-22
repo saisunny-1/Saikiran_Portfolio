@@ -8,10 +8,16 @@
 .bannerBGImage {
 
     height: 100vh;
-    background: url("/image/BG-1.jpg");
+    background: url("../images/BG-1.jpg");
     background-size: cover;
     position: relative;
 
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .bannerText {
